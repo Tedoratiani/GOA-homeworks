@@ -7,7 +7,7 @@ print(type(name))
 print(type(surname))
 print(type(age))
 print(type(number1))
-print(type(number2))te
+print(type(number2))
 
 number1= input("Enter your number1: ")
 number2= input("Enter your number2: ")
