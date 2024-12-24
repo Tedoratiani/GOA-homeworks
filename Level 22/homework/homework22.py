@@ -18,8 +18,8 @@ else:
 
 #5)
 list2 = [1,2,3,4,5]
-print(list2[1])
-print(list2[3])
+print(list2[0])
+print(list2[2])
 print(list2[-1])
 
 #6)
