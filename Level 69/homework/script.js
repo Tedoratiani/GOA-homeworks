@@ -25,3 +25,12 @@ function resetTimer() {
     seconds = 0;
     document.getElementById('timer').innerText = '0 წამი';
 }
+
+let count = 0;
+const interval = setInterval(() => {
+    console.log(count);
+    count++;
+    if (count > 15) {
+        clearInterval(interval);
+    }
+}, 500);
